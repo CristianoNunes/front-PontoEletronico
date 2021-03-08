@@ -1,38 +1,74 @@
 .App {
-  text-align: center;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainLogin {
+  align-items: center;
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: space-between;
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.textLogin {
+  align-items: flex-start;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 35px;
+  margin-right: 20px;
+  height: 60vh;
 }
 
-.App-link {
-  color: #61dafb;
+.textLogin h1 {
+  font-size: 80px;
+  font-weight: 900;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textLogin h2 {
+  font-size: 40px;
+}
+
+.textLogin h5 {
+  justify-self:flex-end;
+}
+
+.formLogin {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 380px;
+  margin-left: 40px;
+  margin-right: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.formLogin a {
+  text-decoration: none;
+}
+
+.titleForm {
+  display: flex;
+  font-weight: 600;
+  margin-top: 25px;
+  width: 80%;
+}
+
+.inputForm {
+  margin-top: 15px !important;
+  width: 100%;
+}
+
+.forgotPassword {
+  align-self: flex-end;
+}
+
+.btnEntar {
+  width: 100%;
+  margin-top: 30px !important;
 }
